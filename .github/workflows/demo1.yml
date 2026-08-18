@@ -8,7 +8,7 @@ on:
     branches:
       - master
     paths-ignore:
-    - .github/**
+      - .github/** ...
 jobs:
   deploy:
     runs-on: ubuntu-latest
